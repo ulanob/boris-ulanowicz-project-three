@@ -3,17 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adventure</title>
+  <title>Choose Your Own Adventure</title>
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <div class="platform">
-    <form action="get">
-      <label for=""></label>
-      <input type="text">
-      <select name="" id=""></select>
-    </form>
-  </div>
+  <main>
+    <div class="background">
+      <!-- the following div will be emptied and then populated with new story content as the user progresses -->
+      <div class="platform">
+        <form action="">
+          <label for="username">Welcometh to Junoper Keep, what be thy nameth?</label>
+          <input type="text" name="username" id="username">
+          <select name="titleSelector" id="additionalTitle">
+            <option value="blank">Choose Your Title</option>
+            <option value="valiant">the Valiant</option>
+            <option value="cruel">the Cruel</option>
+            <option value="orc">the Orc</option>
+            <option value="destroyer">the Destroyer</option>
+            <option value="healer">the Healer</option>
+            <option value="bold">the Bold</option>
+          </select>
+          <button type="submit">Enter the Castle</button>
+        </form>
+      </div>
+    </div>
+    <span>Photo by <a
+        href="https://unsplash.com/@cedericvandenberghe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Cederic
+        Vandenberghe</a> on <a
+        href="https://unsplash.com/s/photos/castle?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+  </main>
+  
 <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
 <script src="./script.js"></script>
 
