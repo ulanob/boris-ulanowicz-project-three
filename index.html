@@ -11,20 +11,46 @@
     <div class="background">
       <!-- the following div will be emptied and then populated with new story content as the user progresses -->
       <div class="platform">
+        <!-- FIRST PAGE FORM -->
         <form action="">
+
           <label for="username">Welcometh to Junoper Keep, what be thy nameth?</label>
-          <input type="text" name="username" id="username">
-          <select name="titleSelector" id="additionalTitle">
-            <option value="blank">Choose Your Title</option>
-            <option value="valiant">the Valiant</option>
-            <option value="cruel">the Cruel</option>
-            <option value="orc">the Orc</option>
-            <option value="destroyer">the Destroyer</option>
-            <option value="healer">the Healer</option>
-            <option value="bold">the Bold</option>
+          <input type="text" name="username" id="username" required>
+
+          <select name="titleSelector" id="additionalTitle" required>
+            <option value="">Choose Your Title</option>
+            <option value="the Valiant">the Valiant</option>
+            <option value="the Cruel">the Cruel</option>
+            <option value="the Orc">the Orc</option>
+            <option value="the Destroyer">the Destroyer</option>
+            <option value="the Healer">the Healer</option>
+            <option value="the Bold">the Bold</option>
           </select>
-          <button type="submit">Enter the Castle</button>
+
+          <button type="submit" id="submit">Enter the Castle</button>
+
         </form>
+
+        <!-- STORY SLIDE 1 - OPENING SLIDE -->
+        <!-- <div class="storyBox">
+          <h1>Welcometh to Junoper Keep, <span>`${storyApp.fullName}`</span></h1>
+          
+          <p>We has't been waiting f'r thee to cometh. Eight months ago, a dark and myst'rious plague did spread ov'r the landeth
+            and
+            did hold us all captive to our homes. With nay direction and nay sight of the endeth of the scourge, a bawbling legion
+            of townspeople beganeth a journey to the prophets to findeth answ'rs, but only one returned, with the message: "we
+            might not but waiteth until ${st'ryapp. time}, at which hour a h'ro shall arriveth to banish the beshrew and lib'rate
+            us...</p>
+          
+          <p>Art the prophecies true? art thee the h'ro we seeketh?</p>
+          
+          <button>aye</button>
+          <button>nay</button>
+        </div> -->
+        
+
+
+
       </div>
     </div>
     <span>Photo by <a
