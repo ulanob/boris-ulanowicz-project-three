@@ -146,8 +146,16 @@ storyApp.eventListeners = function () {
     event.preventDefault();
     storyApp.userName = $('form input').val().trim();
     storyApp.userTitle = $('#additionalTitle').val();
-    
     storyApp.fullName = `${storyApp.userName} ${storyApp.userTitle}`;
+    storyApp.dataArray[0].html = `
+    <button class="veryStart"><i class="fas fa-undo"></i></button>
+    <div class="storyBox storyStart">
+    <h1>Welcometh to Junoper Keep, <span>${storyApp.userName}</span></h1>
+    <p>"Hello. I am the S'rvant of Juniper Keep. I has't been waiting f'r thee to cometh. Eight months ago, a dark and myst'rious plague did spread ov'r the landeth and did hold us all captive to our homes. With nay direction and nay sight of the endeth of the scourge, a bawbling legion of townspeople beganeth a journey to the prophets to findeth answ'rs, but only one returned, with the message: "we might not but waiteth until ${storyApp.time}, at which hour a h'ro shall arriveth to banish the plague and lib'rate us..."</p >
+    <p class = "question">"Art the prophecies true? Art thee the h'ro we seeketh?"</p>
+    <button class="left" value = 0>aye</button>
+    <button class="right" value = 0>nay</button>
+    </div>`;
 
     // moving to [0]
     $('.backgroundImg').css("background-image", `${storyApp.dataArray[0].img}`);

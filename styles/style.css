@@ -336,6 +336,10 @@ a {
   height: 50px;
 }
 
+h1 span {
+  text-transform: capitalize;
+}
+
 form {
   width: inherit;
   height: 20px;
@@ -353,8 +357,9 @@ footer {
   padding: 10px 0;
 }
 
-footer p {
+footer #footerText {
   padding: 10px;
+  display: block;
 }
 
 @media (max-width: 700px) {
@@ -366,5 +371,11 @@ footer p {
   }
   .storyBox .question {
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .backgroundImg {
+    background-position: 70%;
   }
 }
