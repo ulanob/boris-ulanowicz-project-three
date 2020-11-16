@@ -237,36 +237,116 @@ html {
 
 html {
   background-color: darkslategray;
+  font-family: 'MedievalSharp', cursive;
+  font-size: 62.5%;
+  font-size: 1.2rem;
 }
 
-.background,
-.background:after {
-  height: 80vh;
-  width: 80%;
-  margin: 5% auto;
+p {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: #FFF;
+}
+
+.background {
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+.backgroundImg,
+.platform,
+.storyBox {
+  height: inherit;
+  width: inherit;
+  margin: 0 auto;
+}
+
+.backgroundImg,
+.platform {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.backgroundImg {
   background-image: url(../assets/cederic-vandenberghe-21DP3hytVHw-unsplash.jpg);
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-}
-
-.background:after {
+  background-repeat: no-repeat;
   opacity: 0.2;
 }
 
-.platform {
-  height: inherit;
+.platformFlex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+}
+
+.storyBox {
+  padding: 20px 20px;
+  margin: 10% 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+}
+
+.storyBox .veryStart,
+.storyBox .return {
+  position: absolute;
+  left: 20px;
+  top: 0;
+}
+
+.storyBox .left,
+.storyBox .right {
+  width: 100px;
+  display: inline-block;
 }
 
 form {
   width: inherit;
   height: 20px;
+}
+
+.photographerCredit {
+  text-align: center;
+}
+
+footer {
+  background-color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  padding: 10px;
 }
