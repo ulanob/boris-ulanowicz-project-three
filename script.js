@@ -46,7 +46,7 @@ storyApp.dataArray = [
         <button class="left" value = 1>Reasoneth</button>
         <button class="right" value = 1>Fight</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/carlos-cram-ttJt5X9Hmu8-unsplash.jpg')`,
+    img: `url('../../boris-ulanowicz-project-three/assets/carlos-cram-ttJt5X9Hmu8-unsplash.jpg')`,
     color: '#C56723',
     textColor: "#000000",
     credit: `<span>Photo by <a href="https://unsplash.com/@cramtek?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carlos Cram</a> on <a href="https://unsplash.com/s/photos/dragon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
@@ -62,7 +62,7 @@ storyApp.dataArray = [
         <button class="left" value = 2>Reasoneth</button>
         <button class="right" value = 2>Fight</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/chase-clark-HKKM537I_Ik-unsplash.jpg')`,
+    img: `url('../../boris-ulanowicz-project-three/assets/chase-clark-HKKM537I_Ik-unsplash.jpg')`,
     color: '#172832',
     textColor: "#FFFFFF",
     credit: `<span>Photo by <a href="https://unsplash.com/@chaseelliottclark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chase Clark</a> on <a href="https://unsplash.com/s/photos/wizard?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
@@ -81,7 +81,7 @@ storyApp.dataArray = [
         <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/daniel-cheung--vIwZQ_kHa8-unsplash.jpg')`,
+    img: `url('../../boris-ulanowicz-project-three/assets/daniel-cheung--vIwZQ_kHa8-unsplash.jpg')`,
     color: '#051701',
     textColor: "#FFFFFF",
     credit: `<span>Photo by <a href="https://unsplash.com/@danielkcheung?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Daniel Cheung</a> on <a href="https://unsplash.com/s/photos/friendly-dragon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
@@ -95,7 +95,7 @@ storyApp.dataArray = [
         <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg')`,
+    img: `url('../../boris-ulanowicz-project-three/assets/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg')`,
     color: '#050505',
     textColor: "#FFFFFF",
     credit: `<span>Photo by <a href="https://unsplash.com/@varlien?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chelms Varthoumlien</a> on <a href="https://unsplash.com/s/photos/skulls?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
@@ -113,7 +113,7 @@ storyApp.dataArray = [
         <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/joe-caione-qO-PIF84Vxg-unsplash.jpg')`,
+    img: `url('../../boris-ulanowicz-project-three/assets/joe-caione-qO-PIF84Vxg-unsplash.jpg')`,
     color: '#091119',
     textColor: "#FFFFFF",
     credit: `<span>Photo by <a href="https://unsplash.com/@joeyc?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Joe Caione</a> on <a href="https://unsplash.com/s/photos/dog?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
@@ -131,7 +131,7 @@ storyApp.dataArray = [
         <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/simon-berger-6te9SupeW1g-unsplash.jpg')`,
+    img: `url('../../boris-ulanowicz-project-three/assets/simon-berger-6te9SupeW1g-unsplash.jpg')`,
     color: '#05121A',
     textColor: "#FFFFFF",
     credit: `<span>Photo by <a href="https://unsplash.com/@8moments?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Simon Berger</a> on <a href="https://unsplash.com/s/photos/castle-swan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
