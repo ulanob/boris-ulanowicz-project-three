@@ -73,8 +73,9 @@ footer {
   color: #FFFFFF;
   text-align: center;
   padding: 10px 0;
-  p {
+  #footerText {
     padding: 10px;
+    display: block;
   }
 }
 
