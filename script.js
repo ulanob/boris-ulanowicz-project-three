@@ -30,7 +30,7 @@ storyApp.dataArray = [
         <button class="left" value = 0>aye</button>
         <button class="right" value = 0>nay</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/kelly-sikkema-Wni6RtcNhU8-unsplash.jpg')`,
+    img: `url('..assets/kelly-sikkema-Wni6RtcNhU8-unsplash.jpg')`,
     color: '#595B4F',
     textColor: "#000000",
     credit: `<span>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/castle-inside?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
@@ -46,7 +46,7 @@ storyApp.dataArray = [
         <button class="left" value = 1>Reasoneth</button>
         <button class="right" value = 1>Fight</button>
       </div>`,
-    img: `url('../choose-your-own-adventure-project/assets/carlos-cram-ttJt5X9Hmu8-unsplash.jpg')`,
+    img: `url('../assets/carlos-cram-ttJt5X9Hmu8-unsplash.jpg')`,
     color: '#C56723',
     textColor: "#000000",
     credit: `<span>Photo by <a href="https://unsplash.com/@cramtek?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carlos Cram</a> on <a href="https://unsplash.com/s/photos/dragon?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
