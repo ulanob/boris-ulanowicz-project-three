@@ -91,3 +91,9 @@ footer {
     }
   }
 }
+
+@media(max-width: 480px) {
+  .backgroundImg {
+    background-position: 70%;
+  }
+}
