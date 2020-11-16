@@ -357,7 +357,7 @@ footer {
   padding: 10px 0;
 }
 
-footer #footerText {
+footer span {
   padding: 10px;
   display: block;
 }
