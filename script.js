@@ -30,7 +30,7 @@ storyApp.dataArray = [
         <button class="left" value = 0>aye</button>
         <button class="right" value = 0>nay</button>
       </div>`,
-    img: `url('../boris-ulanowicz-project-three/assets/kelly-sikkema-Wni6RtcNhU8-unsplash.jpg')`,
+    img: `url('../../boris-ulanowicz-project-three/assets/kelly-sikkema-Wni6RtcNhU8-unsplash.jpg')`,
     color: '#595B4F',
     textColor: "#000000",
     credit: `<span>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/castle-inside?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>`
