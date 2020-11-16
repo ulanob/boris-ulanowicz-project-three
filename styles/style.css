@@ -247,6 +247,10 @@ p {
   margin: 0;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 .wrapper {
   max-width: 1200px;
   width: 100%;
@@ -296,11 +300,12 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .storyBox {
   padding: 20px 20px;
-  margin: 10% 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,6 +324,7 @@ a {
 
 .storyBox .veryStart,
 .storyBox .return {
+  float: left;
   position: absolute;
   left: 20px;
   top: 0;
@@ -326,8 +332,8 @@ a {
 
 .storyBox .left,
 .storyBox .right {
-  width: 100px;
-  display: inline-block;
+  width: 150px;
+  height: 50px;
 }
 
 form {
@@ -349,4 +355,16 @@ footer {
 
 footer p {
   padding: 10px;
+}
+
+@media (max-width: 700px) {
+  .storyBox {
+    padding: 20px 5px;
+  }
+  .storyBox p {
+    text-align: left;
+  }
+  .storyBox .question {
+    text-align: center;
+  }
 }

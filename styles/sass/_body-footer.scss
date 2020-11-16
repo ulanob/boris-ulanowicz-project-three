@@ -33,11 +33,12 @@
   display: flex;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .storyBox {
   padding: 20px 20px;
-  margin: 10% 0 0 0;
+  // margin: 10% 0 0 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,14 +46,15 @@
   position: relative;
   .veryStart,
   .return {
+    float: left;
     position: absolute;
     left: 20px;
     top: 0;
   }
   .left,
   .right {
-    width: 100px;
-    display: inline-block;
+    width: 150px;
+    height: 50px;
   }
 }
 
@@ -73,5 +75,18 @@ footer {
   padding: 10px 0;
   p {
     padding: 10px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .storyBox {
+    padding: 20px 5px;
+    p {
+      text-align: left;
+    }
+    .question {
+      text-align: center;
+    }
   }
 }

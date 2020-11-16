@@ -25,8 +25,8 @@ storyApp.dataArray = [
       <button class="veryStart"><i class="fas fa-undo"></i></button>
       <div class="storyBox storyStart">
         <h1>Welcometh to Junoper Keep, <span>${storyApp.userName}</span></h1>
-        <p>We has't been waiting f'r thee to cometh. Eight months ago, a dark and myst'rious plague did spread ov'r the landeth and did hold us all captive to our homes. With nay direction and nay sight of the endeth of the scourge, a bawbling legion of townspeople beganeth a journey to the prophets to findeth answ'rs, but only one returned, with the message: "we might not but waiteth until ${storyApp.time}, at which hour a h'ro shall arriveth to banish the beshrew and lib'rate us...</p >
-        <p>Art the prophecies true? Art thee the h'ro we seeketh?</p>
+        <p>"Hello. I am the S'rvant of Juniper Keep. I has't been waiting f'r thee to cometh. Eight months ago, a dark and myst'rious plague did spread ov'r the landeth and did hold us all captive to our homes. With nay direction and nay sight of the endeth of the scourge, a bawbling legion of townspeople beganeth a journey to the prophets to findeth answ'rs, but only one returned, with the message: "we might not but waiteth until ${storyApp.time}, at which hour a h'ro shall arriveth to banish the plague and lib'rate us..."</p >
+        <p class = "question">"Art the prophecies true? Art thee the h'ro we seeketh?"</p>
         <button class="left" value = 0>aye</button>
         <button class="right" value = 0>nay</button>
       </div>`,
@@ -40,9 +40,11 @@ storyApp.dataArray = [
     html: `
       <button class="return" value = 0><i class="fas fa-undo"></i></button>
       <div class="storyBox storyMid">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt delectus quia quas repellendus voluptates hic nobis. Sunt adipisci obcaecati nemo sequi, illo sint velit mollitia impedit aperiam rem error cumque soluta voluptatibus eum debitis id deleniti repellat deserunt et sit!</p>
-        <button class="left" value = 1>____</button>
-        <button class="right" value = 1>____</button>
+        <p>Thee nodeth thy headeth in agreement.  In a stout voice, thee replyeth "yes! i am the h'ro thee seeketh"</p>
+        <p>The S'rvant nods solemnly.  "Thank thee f'r coming to saveth us.  We believeth yond the spirit of the plague resides inside the fi'ry Dragon living at the top of Junoper Keep.  The bodement sayeth yond the chosen one shalt useth their intellect to dispell the Dragon, but what couldst yond possibly mean?"</p>
+        <p>"Fight??? Reasoneth???"</p>
+        <button class="left" value = 1>Reasoneth</button>
+        <button class="right" value = 1>Fight</button>
       </div>`,
     img: `url('../choose-your-own-adventure-project/assets/carlos-cram-ttJt5X9Hmu8-unsplash.jpg')`,
     color: '#C56723',
@@ -54,9 +56,11 @@ storyApp.dataArray = [
     html: `
       <button class="return" value = 0><i class="fas fa-undo"></i></button>
       <div class="storyBox storyMid">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt delectus quia quas repellendus voluptates hic nobis. Sunt adipisci obcaecati nemo sequi, illo sint velit mollitia impedit aperiam rem error cumque soluta voluptatibus eum debitis id deleniti repellat deserunt et sit!</p>
-        <button class="left" value = 2>____</button>
-        <button class="right" value = 2>____</button>
+        <p>The S'rvant looks puzzl'd.</p>
+        <p>"No, thee might not but beest the h'ro.  Thee wilt beest falsing, coward.  The Wizard shall certes knoweth if 't be true thou art truthful 'r not!" </p>
+        <p>A Wizard appears out of thin air, with their wand eft to conjure a dark spelleth and looks at thee expectantly.  </p>
+        <button class="left" value = 2>Reasoneth</button>
+        <button class="right" value = 2>Fight</button>
       </div>`,
     img: `url('../choose-your-own-adventure-project/assets/chase-clark-HKKM537I_Ik-unsplash.jpg')`,
     color: '#172832',
@@ -68,7 +72,13 @@ storyApp.dataArray = [
     html: `
       <button class="return" value = 1><i class="fas fa-undo"></i></button>
       <div class="storyBox storyEnd">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt delectus quia quas repellendus voluptates hic nobis. Sunt adipisci obcaecati nemo sequi, illo sint velit mollitia impedit aperiam rem error cumque soluta voluptatibus eum debitis id deleniti repellat deserunt et sit!</p>
+        <p>Thee behold the Dragon in the eye with thy most earnest expression. </p>
+        <p> "I knoweth what t is liketh to beest a Dragon, I wast a Dragon once", thee divulge.  "I wast scaly, and feared, and hadst hot, hot breath. " </p>
+        <p>The Dragon stops in its tracks, listening to thy st'ry, seemingly looking at thee but actually looking deep inside thee.  A single drop of sorrow falls down from the most wondrous beast's eye.  The Dragon then shrinks and shrinks and shrinks until t is the size of the Dragon toy thee hadst as a young p'rson.  </p>   
+ 
+        <p>"Aye", sayeth the S'rvant.  "Looks liketh thee w're able to did cast hence the plague with the strongest f'rce of all: friendship" </p>
+
+        <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
     img: `url('../choose-your-own-adventure-project/assets/daniel-cheung--vIwZQ_kHa8-unsplash.jpg')`,
@@ -81,7 +91,8 @@ storyApp.dataArray = [
     html: `
       <button class="return" value = 1><i class="fas fa-undo"></i></button>
       <div class="storyBox storyEnd">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt delectus quia quas repellendus voluptates hic nobis. Sunt adipisci obcaecati nemo sequi, illo sint velit mollitia impedit aperiam rem error cumque soluta voluptatibus eum debitis id deleniti repellat deserunt et sit!</p>
+        <p>Thee taketh a swingeth at the Dragon with thy bareth hands, and the most wondrous beast incin'rates thee instantly, leaving thee to decayeth into a pile of bones</p>
+        <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
     img: `url('../choose-your-own-adventure-project/assets/chelms-varthoumlien-j-zQJk6aaaA-unsplash.jpg')`,
@@ -94,7 +105,12 @@ storyApp.dataArray = [
     html: `
       <button class="return" value = 2><i class="fas fa-undo"></i></button>
       <div class="storyBox storyEnd">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt delectus quia quas repellendus voluptates hic nobis. Sunt adipisci obcaecati nemo sequi, illo sint velit mollitia impedit aperiam rem error cumque soluta voluptatibus eum debitis id deleniti repellat deserunt et sit!</p>
+        <p>Thee raiseth thy hands pleadingly to stand ho the Wizard's rage.  Thee exclaim, "Hey. Art we not friends?" </p>
+
+        <p>The Wizard looks at thee, did confuse, and sayeth, "I doth not rememb'r meeting thee but I couldst useth a friend." </p>
+
+        <p>With a flick of a wand, the Wizard transf'rms thee into into human's most wondrous ally</p>
+        <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
     img: `url('../choose-your-own-adventure-project/assets/joe-caione-qO-PIF84Vxg-unsplash.jpg')`,
@@ -107,7 +123,12 @@ storyApp.dataArray = [
     html: `
       <button class="return" value = 2><i class="fas fa-undo"></i></button>
       <div class="storyBox storyEnd">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt delectus quia quas repellendus voluptates hic nobis. Sunt adipisci obcaecati nemo sequi, illo sint velit mollitia impedit aperiam rem error cumque soluta voluptatibus eum debitis id deleniti repellat deserunt et sit!</p>
+        <p>Thee behold 'round the cubiculo f'r a weapon, but the wizard hast already did cast a spelleth. A charm 'rupts from the tipeth of the wizard's wand, firing right at the mask thee w're wearing because of the plague. </p>
+        
+        <p>The mask, with two out'r did lie'rs of tightly woven fabric and a middle did lie'r of polypropylene, reflects the dark spelleth backeth towards the wizard, transf'rming the most wondrous mystic into a quite quaint swan. </p>
+ 
+        <p>Relieved, thee leaveth the castle and holidam to nev'r returneth</p>
+        <h2>the end</h2>
         <button class="start">Restart Thy Adventure</button>
       </div>`,
     img: `url('../choose-your-own-adventure-project/assets/simon-berger-6te9SupeW1g-unsplash.jpg')`,
@@ -127,11 +148,6 @@ storyApp.eventListeners = function () {
     storyApp.userTitle = $('#additionalTitle').val();
     
     storyApp.fullName = `${storyApp.userName} ${storyApp.userTitle}`;
-    console.log(`${storyApp.fullName}`);
-    // custom alert if user does not provide a valid response?
-
-    // Remove flexbox off .platform
-    $('.platform').removeClass('platformFlex');
 
     // moving to [0]
     $('.backgroundImg').css("background-image", `${storyApp.dataArray[0].img}`);
@@ -148,7 +164,7 @@ storyApp.eventListeners = function () {
       .empty()
       .append($(storyApp.dataArray[storyIndex * 2 + 1].html));
     $('html').css("background-color", `${storyApp.dataArray[storyIndex * 2 + 1].color}`);
-    $('p').css("color", `${storyApp.dataArray[storyIndex * 2 + 1].textColor}`);
+    $('p, h2').css("color", `${storyApp.dataArray[storyIndex * 2 + 1].textColor}`);
     $('.photographerCredit').empty().append(storyApp.dataArray[storyIndex * 2 + 1].credit);
   });
 
@@ -160,7 +176,7 @@ storyApp.eventListeners = function () {
       .empty()
       .append($(storyApp.dataArray[storyIndex * 2 + 2].html));
     $('html').css("background-color", `${storyApp.dataArray[storyIndex * 2 + 2].color}`);
-    $('p').css("color", `${storyApp.dataArray[storyIndex * 2 + 2].textColor}`);
+    $('p, h2').css("color", `${storyApp.dataArray[storyIndex * 2 + 2].textColor}`);
     $('.photographerCredit').empty().append(storyApp.dataArray[storyIndex * 2 + 2].credit);
   });
 
@@ -172,20 +188,22 @@ storyApp.eventListeners = function () {
       .empty()
       .append($(storyApp.dataArray[storyIndex].html));
     $('html').css("background-color", `${storyApp.dataArray[storyIndex].color}`);
-    $('p').css("color", `${storyApp.dataArray[storyIndex].textColor}`);
+    $('p, h2').css("color", `${storyApp.dataArray[storyIndex].textColor}`);
     $('.photographerCredit').empty().append(storyApp.dataArray[storyIndex].credit);
   });
 
+  // Event listener on restart button 
   $('.platform').on('click', '.start', () => {
     $('.backgroundImg').css("background-image", `${storyApp.dataArray[0].img}`);
     $('.platform')
     .empty()
     .append($(storyApp.dataArray[0].html));
     $('html').css("background-color", `${storyApp.dataArray[0].color}`);
-    $('p').css("color", `${storyApp.dataArray[0].textColor}`);
+    $('p, h2').css("color", `${storyApp.dataArray[0].textColor}`);
     $('.photographerCredit').empty().append(storyApp.dataArray[0].credit);
   });
 
+  // Return button on [0] bringing user back to form page with a page reset
   $('.platform').on('click', '.veryStart', () => {
     // $('.platform').addClass('platformFlex');
     window.location.reload();
